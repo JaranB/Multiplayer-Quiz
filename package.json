@@ -1,0 +1,32 @@
+{
+  "name": "pg6300-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development  && npm run start",
+    "build": "webpack --mode production",
+    "start": "node src/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.5",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-textfield": "0.0.6",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}

@@ -1,0 +1,260 @@
+html,
+body {
+  background: #f6fbfd;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.textinput {
+  background: white;
+  border-radius: 75px;
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 5px 20px -2px rgba(0, 0, 0, 0.15);
+}
+
+#nicknameBox {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#welcomeText {
+  font-size: 50px;
+  text-align: center;
+}
+
+#welcomeBox {
+  max-width: 600px;
+  height: 300px;
+  padding: 20px;
+  margin: calc(50vh - 150px) auto;
+}
+
+.spacing-reset {
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  display: block;
+  background: linear-gradient(135deg, #1fb0ed 0%, #6761fb 100%);
+  border: none;
+  border-radius: 75px;
+  color: white;
+  padding: 12px 35px;
+  text-decoration: none;
+  margin: 15px 2px 5px;
+  cursor: pointer;
+  height: 35px;
+  max-width: 300px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 35px;
+  box-shadow: 0px 5px 15px -2px rgba(0, 0, 0, 0.3);
+  opacity: 0.92;
+  transition: all 0.2s;
+}
+
+#button:hover {
+  box-shadow: 0px 5px 15px -2px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.playerButton {
+  display: block;
+  border: none;
+  border-radius: 75px;
+  color: white;
+  padding: 14px 2px;
+  text-decoration: none;
+  margin: 15px 2px 5px;
+  cursor: pointer;
+  height: 20px;
+  max-width: 300px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: #1fb0ed;
+  background: linear-gradient(to right, #1fb0ed 0%, #6761fb 100%);
+}
+
+#header a {
+  line-height: 50px;
+}
+
+#nicknameText {
+  float: left;
+  margin-left: 15px;
+  color: #fff;
+}
+
+#gameLobbyBox {
+  max-width: 300px;
+  height: 600px;
+  margin: calc(50vh - 150px) auto;
+}
+
+.playerBorder {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 75px;
+  color: white;
+  box-shadow: 0px 5px 20px -2px rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+  background: #31b5f3;
+  opacity: 1;
+}
+
+.green {
+  background: #74cc7c;
+  opacity: 1;
+}
+
+.red {
+  background: #cc7474;
+  opacity: 1;
+}
+
+#gameFrame {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#gameTop {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gameTop__box {
+  float: left;
+  margin-top: 20px;
+}
+
+.gameTop__box--players {
+  width: 25%;
+}
+
+.gameTop__box--question {
+  width: 50%;
+}
+
+.gameTop__box--scores {
+  width: 25%;
+}
+
+.gameTop__box--gameOverPlayers {
+  width: 200px;
+}
+
+.gameTop__box--gameOverScores {
+  width: 200px;
+}
+
+#gameBottom {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.gameAlternative {
+  float: left;
+  width: 45%;
+  height: 150px;
+  margin: 1.5%;
+  line-height: 150px;
+  cursor: pointer;
+}
+
+.clearFix {
+  clear: both;
+}
+
+.gamePlayerTag {
+  display: block;
+  padding: 16px 10px;
+  margin: 5px;
+  text-decoration: none;
+  height: 25px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#player {
+  background: linear-gradient(135deg, #1fb0ed 0%, #6761fb 100%);
+}
+
+#player1 {
+  background: #11c5ff;
+}
+
+#player2 {
+  background: #e8e319;
+}
+
+#player3 {
+  background: #ff5c54;
+}
+
+#player4 {
+  background: #005ee8;
+}
+
+#winnerStyle {
+  background: gold;
+}
+.spacer {
+  margin: 50px 0;
+  text-align: center;
+}
+
+#questionBox {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  font-size: 25px;
+  text-align: center;
+  padding: 60px 0px;
+  color: #3e4448;
+  background: #fff;
+  box-shadow: 0px 5px 20px -2px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center-container {
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
